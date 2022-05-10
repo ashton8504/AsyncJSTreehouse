@@ -15,7 +15,7 @@ function getProfiles(json) {
   }); 
   return Promise.all(profiles);
 }
-
+       
 function generateHTML(data) {
   data.map( person => {
     const section = document.createElement('section');
